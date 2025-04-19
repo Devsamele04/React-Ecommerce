@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import Nav from "./Navbar";
 import { Link, useLocation } from "react-router-dom";
 import { productContext } from "../utils/context";
-import Loading from "./loading";
+import Loading from "./Loading";
 import axios from "../utils/axios";
 import { useEffect } from "react";
 
